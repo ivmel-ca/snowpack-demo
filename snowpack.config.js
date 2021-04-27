@@ -7,17 +7,7 @@ module.exports = {
     static: { url: "/", static: true },
     src: { url: "/dist" }
   },
-  plugins: [
-    [
-      "@snowpack/plugin-babel",
-      {
-        input: [".js", ".jsx", ".ts", ".tsx"], // (optional) specify files for Babel to transform
-        transformOptions: {
-          // babel transform options
-        }
-      }
-    ]
-  ],
+  plugins: ["@snowpack/plugin-react-refresh", "@snowpack/plugin-babel"],
   packageOptions: {
     /* ... */
   },

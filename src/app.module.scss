@@ -1,0 +1,26 @@
+.title {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.kokoko {
+  background-color: darkslateblue;
+}
+
+.rotatingIcon {
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
+  animation: 10s linear 0s infinite normal rotating;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

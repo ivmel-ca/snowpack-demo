@@ -18,8 +18,10 @@
     "@snowpack/plugin-babel": "^2.1.7",
     "@snowpack/plugin-dotenv": "^2.1.0",
     "@snowpack/plugin-react-refresh": "^2.4.2",
+    "@snowpack/plugin-sass": "^1.4.0",
     "live-server": "^1.2.1",
-    "snowpack": "^3.3.5"
+    "snowpack": "^3.3.5",
+    "snowpack-plugin-svgr": "^0.1.2"
   },
   "dependencies": {
     "react": "^17.0.2",

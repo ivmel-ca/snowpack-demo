@@ -7,7 +7,12 @@ module.exports = {
     static: { url: "/", static: true },
     src: { url: "/dist" }
   },
-  plugins: ["@snowpack/plugin-react-refresh", "@snowpack/plugin-babel"],
+  plugins: [
+    "@snowpack/plugin-react-refresh",
+    "@snowpack/plugin-babel",
+    "@snowpack/plugin-sass",
+    ["snowpack-plugin-svgr", { exclude: "*/**/node_modules" }]
+  ],
   packageOptions: {
     /* ... */
   },
